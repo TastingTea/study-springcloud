@@ -24,5 +24,4 @@ public class ServiceBController {
 		RestTemplate restTemplate = getRestTemplate();
 		return restTemplate.getForObject("http://ServiceA/sayHello/" + name, String.class);
 	}
-	
 }
