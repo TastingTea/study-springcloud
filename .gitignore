@@ -1,6 +1,7 @@
+/.vscode/
+/**/.vscode/
 /.idea/
 /**/.idea/
-/**/.idea/*.xml
 /.settings/
 /**/*.iml
 /.project
