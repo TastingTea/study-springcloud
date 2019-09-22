@@ -11,6 +11,8 @@
     <modules>
         <module>service-a-api</module>
         <module>serviceA</module>
+        <module>serviceB</module>
+        <module>eureka-server</module>
     </modules>
 
     <properties>
