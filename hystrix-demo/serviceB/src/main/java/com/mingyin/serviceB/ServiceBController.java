@@ -16,6 +16,7 @@ public class ServiceBController {
     public String greeting(@PathVariable("id") Long id,
                            @RequestParam("name") String name,
                            @RequestParam("age") Integer age) {
+        System.out.println("sayHello");
         return serviceA.sayHello(id, name, age);
     }
 
