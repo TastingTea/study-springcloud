@@ -1,0 +1,6 @@
+server:
+  port: 9000
+zuul:
+  routes:
+    demo:
+      url: http://localhost:9090/
