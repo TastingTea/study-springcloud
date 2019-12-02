@@ -7,17 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-/**
- * 用户管理模块的控制器组件
- * 
- * 先初步介绍一下，什么是RESTful风格的接口，其实这个是一种风格和思想
- * 就是说他认为系统里的各种东西都是资源，暴露出去的接口，都是对资源的一种操作
- * 所以在请求URL里面，按照一种风格标志出来你要操作的是哪个资源
- * 然后通过HTTP method来定义你要对这个资源执行什么样的操作呢？
- *
- *
- */
 @RestController
 @RequestMapping("/user")
 public class UserController {
